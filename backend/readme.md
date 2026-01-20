@@ -26,14 +26,8 @@ Clone o projeto:
 git clone <YOUR_GIT_URL>
 cd <YOUR_PROJECT_NAME>
 ```
-Depois precisa subir o container do banco (necessário instalação docker)
+Depois precisa subir os containers do banco e API (necessário instalação docker)
 
 ```bash
 docker-compose up
 ```
-
-Depois só rodar o comando(modo desenvolvimento):
-```bash
-npm run dev
-```
-
